@@ -1,0 +1,19 @@
+{
+  "name": "dmhy Extension",
+  "description": "An extension that interacts with dmhy site",
+  "version": "1.0",
+  "manifest_version": 3,
+  "host_permissions": [
+    "https://share.dmhy.org/"
+  ],
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Download links"
+  }
+}
